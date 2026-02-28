@@ -2148,4 +2148,24 @@ a {
     padding: 8px 15px; /* Reduce padding for smaller screens */
     font-size: 14px; /* Adjust font size for better fit */
   }
+}copyright {
+  padding: 0 15px;
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 15px;
+}
+.copyright p {
+  color: #a5a5a5;
+}
+
+@media (max-width: 768px) {
+  .topbar-info ul li a {
+    padding: 8px 15px; /* Reduce padding for smaller screens */
+    font-size: 14px; /* Adjust font size for better fit */
+  }
+
+  .topbar-info ul li.time-badge {
+    padding: 8px 15px; /* Reduce padding for smaller screens */
+    font-size: 14px; /* Adjust font size for better fit */
+  }
 }
